@@ -1,0 +1,30 @@
+
+$colorprimario: #6bc7c5;
+$colorsecundario: #f96b64;
+$colorterciario: #ffcf61;
+$coloralternativo: #a0dbda;
+
+
+
+@import "reset";
+@import "mixin";
+@import "map";
+@import "index";
+@import "contact";
+@import "testimonios";
+@import "products";
+@import "media";
+
+    .redes {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+   }
+
+   .aside__aboutus__content {
+       background-color: #a0dbda;
+       padding: 20px;;
+   }
+
+
